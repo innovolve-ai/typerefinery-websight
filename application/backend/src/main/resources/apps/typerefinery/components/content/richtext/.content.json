@@ -1,5 +1,5 @@
 {
   "group": "Howlite",
   "sling:resourceType": "ws:Component",
-  "title": "Footer"
+  "title": "Rich text editor"
 }

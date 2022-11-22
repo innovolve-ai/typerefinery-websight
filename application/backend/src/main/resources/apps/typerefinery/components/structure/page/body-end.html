@@ -1,0 +1,19 @@
+<script>
+  const {createApp, ref} = Vue;
+
+  const App = {
+      setup() {
+          const val = ref(null);
+
+          return {
+              val
+          };
+      },
+      components: {
+        "p-button": primevue.button,
+        "p-inputtext": primevue.inputtext
+      }
+  };
+
+  createApp(App).use(primevue.config.default).mount("#app");
+</script>
