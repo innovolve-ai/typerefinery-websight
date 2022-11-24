@@ -160,6 +160,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
+      <!-- showing error when change to io.typerefinery i.e. 'dependencies.dependency.version' for pl.ds.howlite:howlite-core:jar is missing -->
         <groupId>pl.ds.howlite</groupId>
         <artifactId>howlite-core</artifactId>
         <version>${howlite.version}</version>

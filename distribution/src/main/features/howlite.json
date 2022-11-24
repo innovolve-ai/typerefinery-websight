@@ -1,9 +1,11 @@
 {
   "bundles": [
     {
-      "id": "pl.ds.howlite:howlite-core:${howlite.version}",
+      "id": [
+        "pl.ds.howlite:howlite-core:${howlite.version}",
+        "io.typerefinery:typerefinery-parent:2.0.1-SNAPSHOT"
+      ],
       "start-order": "25"
     }
   ]
 }
-  

@@ -14,11 +14,10 @@
     limitations under the License.
 */-->
 <template data-sly-template.cta="${ @ label, link, openInNewTab, displayIcon, classes, iconPos}">
-    <p-button 
-        icon="${displayIcon}"
-        data-sly-attribute.label="${label}" 
-        class=" ${classes @ join=' '}"
-        iconPos="${iconPos}"
-    >
+    <p-button icon="${displayIcon}" data-sly-attribute.label="${label}" class=" ${classes @ join=' '}"
+        iconPos="${iconPos}">
     </p-button>
+    <p-inputtext icon="${displayIcon}" data-sly-attribute.label="${label}" class=" ${classes @ join=' '}"
+        iconPos="${iconPos}">
+    </p-inputtext>
 </template>
