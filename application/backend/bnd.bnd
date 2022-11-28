@@ -1,3 +1,12 @@
 Sling-Bundle-Resources:\
- /apps/luna,\
  /apps/typerefinery
+Export-Package:${packages;VERSIONED}
+Embed-Transitive: true
+-plugin:\
+  org.apache.sling.bnd.models.ModelsScannerPlugin,\
+  org.apache.sling.caconfig.bndplugin.ConfigurationClassScannerPlugin
+Bundle-Vendor: TypeFefinery
+Bundle-Description: ${project.description}
+Bundle-SymbolicName: io.typerefinery
+-exportcontents:\
+  io.typerefinery.*

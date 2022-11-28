@@ -15,7 +15,7 @@
  */
 
 @Version("1.0.0")
-package io.typerefinery.components.models;
+package io.typerefinery;
 
 import org.osgi.annotation.versioning.Version;
 
