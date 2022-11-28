@@ -5,8 +5,9 @@ Embed-Transitive: true
 -plugin:\
   org.apache.sling.bnd.models.ModelsScannerPlugin,\
   org.apache.sling.caconfig.bndplugin.ConfigurationClassScannerPlugin
-Bundle-Vendor: TypeFefinery
+Bundle-Vendor: Typerefinery
 Bundle-Description: ${project.description}
 Bundle-SymbolicName: io.typerefinery
 -exportcontents:\
   io.typerefinery.*
+  
