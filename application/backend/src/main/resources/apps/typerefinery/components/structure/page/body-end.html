@@ -1,19 +1,45 @@
 <script>
-  const {createApp, ref} = Vue;
+  const { createApp, ref } = Vue;
 
   const App = {
-      setup() {
-          const val = ref(null);
+    setup() {
+      const val = ref(null);
 
-          return {
-              val
-          };
-      },
-      components: {
-        "p-button": primevue.button,
-        "p-inputtext": primevue.inputtext
-      }
+      return {
+        val
+      };
+    },
+    components: {
+      "p-button": primevue.button,
+      "p-inputtext": primevue.inputtext
+    },
+    // methods: {
+    //   clickevent() {
+    //     alert("event clicked");
+    //     console.log("clicked");
+    //   }
+    // }
   };
+  var vueapp = createApp(App);
+  vueapp.use(primevue.config.default);
 
-  createApp(App).use(primevue.config.default).mount("#app");
+
+  // add addition event 
+  // add click event afterwards
+  function clickevent1() {
+    alert("event clicked");
+    console.log("clicked");
+
+  }
+  // cta javascript
+  (function (vueapp) {
+    // vueapp.methods.clickevent = clickevent1;
+
+    vueapp.data.firstname = "rohit";
+    console.log("cta javascript");
+    console.log("vueapp", vueapp);
+    console.log("app", vueapp.App);
+    console.log("vue", vueapp.Vue);
+  })(vueapp);
+  vueapp.mount("#app");
 </script>
