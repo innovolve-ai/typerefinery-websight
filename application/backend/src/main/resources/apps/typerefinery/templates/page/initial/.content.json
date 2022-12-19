@@ -15,9 +15,6 @@
           "accordion": {
             "sling:resourceType": "typerefinery/components/structure/accordionreference"
           },
-          "cta": {
-            "sling:resourceType": "typerefinery/components/structure/ctareference"
-          },
           "card": {
             "sling:resourceType": "typerefinery/components/structure/cardreference"
           },
