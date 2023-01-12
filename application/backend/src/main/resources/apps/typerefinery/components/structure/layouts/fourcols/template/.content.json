@@ -4,29 +4,29 @@
   "container1": {
     "jcr:primaryType": "nt:unstructured",
     "sling:resourceType": "/apps/typerefinery/components/structure/container",
-    "smColSize": 8,
-    "mdColSize": 4,
-    "lgColSize": 3
+    "smColSize": 24,
+    "mdColSize": 16,
+    "lgColSize": 12
   },
   "container2": {
     "jcr:primaryType": "nt:unstructured",
     "sling:resourceType": "/apps/typerefinery/components/structure/container",
-    "smColSize": 8,
-    "mdColSize": 4,
-    "lgColSize": 3
+    "smColSize": 24,
+    "mdColSize": 16,
+    "lgColSize": 12
   },
   "container3": {
     "jcr:primaryType": "nt:unstructured",
     "sling:resourceType": "/apps/typerefinery/components/structure/container",
-    "smColSize": 8,
-    "mdColSize": 4,
-    "lgColSize": 3
+    "smColSize": 24,
+    "mdColSize": 16,
+    "lgColSize": 12
   },
   "container4": {
     "jcr:primaryType": "nt:unstructured",
     "sling:resourceType": "/apps/typerefinery/components/structure/container",
-    "smColSize": 8,
-    "mdColSize": 4,
-    "lgColSize": 3
+    "smColSize": 24,
+    "mdColSize": 16,
+    "lgColSize": 12
   }
 }

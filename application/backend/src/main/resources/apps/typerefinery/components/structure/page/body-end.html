@@ -1,6 +1,6 @@
 <script>
 
-  
+
   const otherVueModelObjects = {};
   window.typerefinery = {};
   window.Vue = Vue;
@@ -15,7 +15,7 @@
     });
   }
 
-  function getAllVueRadioButtonComponents () {
+  function getAllVueRadioButtonComponents() {
     document.querySelectorAll('[data-module="vue-radioButton"]').forEach(_ => {
       let modelName = _.getAttribute("name");
       modelName.trim();
@@ -24,22 +24,22 @@
     });
   }
 
-  function getAllVueComponents() { 
+  function getAllVueComponents() {
     getAllVueCheckBoxComponents();
     getAllVueRadioButtonComponents();
   }
 
   getAllVueComponents();
 
-  
+
   const vueApp = Vue.createApp({
     data() {
       return {
         nodes: [
           {
             "key": "0",
-            "label": "Tableau de bord",
-            "data": "Tableau de bord",
+            "label": "Table of Content",
+            "data": "Table of Content",
             "icon": "pi pi-fw pi-star-fill"
           },
           {
@@ -157,6 +157,10 @@
     vueApp.component("p-inputtext", primevue.inputtext)
 
   })(vueApp, window.typerefinery.inputText);
+
+  // Sidebar Click function
+
+
 
   //Accordion page namespace
   //  window.typerefinery.inputText = {};
